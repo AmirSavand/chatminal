@@ -1,0 +1,19 @@
+{
+  "version": "0.1.15",
+  "source": "src",
+  "output": "dist",
+  "template": true,
+  "nameAsTitle": false,
+  "firstLineAsTitle": true,
+  "cssVariables": {
+    "--primary": "#f4427d",
+    "--body-color": "#1e272e",
+    "--body-bg": "#f9fafc",
+    "--heading-color": "#1e272e",
+    "--content-bg": "white"
+  },
+  "extraHead": [
+    "<link rel='icon' type='image/png' sizes='1024x1024' href='/assets/favicon.png'>",
+    "<style>img { box-shadow: 0 0.8rem 0.8rem rgb(0 0 0 / 30%); }</style>"
+  ]
+}
