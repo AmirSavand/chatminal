@@ -1,11 +1,12 @@
 {
   "name": "chatminal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "node scripts/build.js"
   },
   "devDependencies": {
     "fs-extra": "^10.0.0",
+    "htmlmin": "^0.0.7",
     "index.md": "^0.1.15"
   }
 }

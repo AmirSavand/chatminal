@@ -1,6 +1,8 @@
 const { join } = require("path");
 const fse = require("fs-extra");
 const { exec } = require("child_process");
+const htmlmin = require("htmlmin");
+const fs = require("fs");
 
 const root = process.cwd();
 const dist = join(root, "dist");
@@ -19,7 +21,7 @@ const copyAssets = () => {
   fse.copySync(assets, join(dist, "assets"));
 };
 
-compileMD = () => {
+const compileMD = (callback) => {
   console.log("> compileMD");
   exec("index-md", (error, stdout, stderr) => {
     if (error || stderr) {
@@ -34,9 +36,17 @@ compileMD = () => {
       return;
     }
     console.log(stdout);
+    callback?.();
   });
 };
 
+const minifyHTML = () => {
+  console.log("> minifyHTML");
+  const html = join(dist, "index.html");
+  fs.writeFileSync(html, htmlmin(fs.readFileSync(join(dist, "index.html"), { encoding: "utf-8" })));
+};
+
+
 deleteDist();
 copyAssets();
-compileMD();
+compileMD(minifyHTML);
