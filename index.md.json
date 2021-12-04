@@ -3,20 +3,7 @@
   "source": "src",
   "output": "dist",
   "template": true,
+  "baseTemplate": "src/base.html",
   "nameAsTitle": false,
-  "firstLineAsTitle": true,
-  "cssVariables": {
-    "--primary": "#f4427d",
-    "--body-color": "#1e272e",
-    "--body-bg": "#f9fafc",
-    "--heading-color": "#1e272e",
-    "--content-bg": "white"
-  },
-  "extraHead": [
-    "<link rel=icon type=image/png sizes=1024x1024 href=/assets/favicon.png>",
-    "<style>img { border-radius: 0.5rem; }</style>",
-    "<style>p > img { box-shadow: 0 0.8rem 0.8rem rgb(0 0 0 / 30%); }</style>",
-    "<style>h3 > img, h2 > img { width: 20px; height: 20px; padding: 6px; margin-bottom: -8px; margin-right: 4px; background: #eee; }</style>",
-    "<style>h2 > img { filter: invert(1); }</style>"
-  ]
+  "firstLineAsTitle": true
 }
