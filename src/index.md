@@ -1,6 +1,6 @@
 # Chatminal
 
-Minimalistic chat app for web, terminal, desktop, etc.
+Minimalistic chat app for web, desktop, etc.
 
 ![](assets/chatminal.png)
 
@@ -15,7 +15,7 @@ broadcasting, delete or edit messages, registration, phone number, unique userna
 - MarkDown support with language syntax highlighter.
 - Upload any type of files with previews.
 - Create private rooms and invite with just a link.
-- Access via browser, terminal or desktop app.
+- Access via browser or desktop app.
 - Messages and settings are stored locally.
 - No one but room members have access to messages.
 - More features with regular update.
@@ -42,22 +42,12 @@ for other formats like `deb`, `rpm`, etc.
 
 [![](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/chatminal)
 
-### ![](assets/icons/terminal.svg) Terminal
-
-To use the terminal app, you need have [Node.js](https://nodejs.org/en/download/) installed and run the command
-below to install the Chatminal Terminal client.
-
-```
-npm install -g chatminal
-```
-
 ## ![](assets/icons/source-codes.svg) Source codes
 
 Here's a list of Chatminal repositories:
 
 - [chatminal](https://github.com/AmirSavand/chatminal)
 - [chatminal-client-web](https://github.com/AmirSavand/chatminal-client-web)
-- [chatminal-client-nodejs](https://github.com/AmirSavand/chatminal-client-nodejs)
 - [chatminal-client-desktop](https://github.com/AmirSavand/chatminal-client-desktop)
 
 ## ![](assets/icons/contact-us.svg) Contact us
@@ -76,4 +66,4 @@ Here's a list of cool things made Chatminal possible.
 
 ## ![](assets/icons/about.svg) About
 
-Made with 💖 by [Savand Bros](https://savandbros.com) &copy; 2021.
+Made with 💖 by [Savand Bros](https://savandbros.com) &copy; 2021-present.
