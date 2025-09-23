@@ -1,6 +1,6 @@
 # Chatminal
 
-- 🏠 [Homepage](https://savandbros.com/chatminal)
+- 🏠 [Homepage](https://savandbros.com/apps/chatminal)
 - 🌐 [Web App](https://github.com/AmirSavand/codebox/releases/latest)
 
 ---
